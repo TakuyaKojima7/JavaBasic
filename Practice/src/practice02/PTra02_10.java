@@ -22,5 +22,8 @@ public class PTra02_10 {
 		 * ※ プログラムは何行書いても良いです
 		 */
 
+		double total1 = moneyInHand - 1.08 * (2 * coffee + snack);
+		int total2 = (int) total1;
+		System.out.println(total2);
 	}
 }
